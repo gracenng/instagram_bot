@@ -1,8 +1,6 @@
 from selenium import webdriver
 from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver, AbstractEventListener
 from time import sleep
-from selenium.webdriver.common.keys import Keys
 
 
 class InstaBot:
